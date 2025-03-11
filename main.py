@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException, Header
 
-app = FastAPI(docs_url=None, redoc_url=None)
+app = FastAPI()
 
 API_KEY = "phase0h8"
 
